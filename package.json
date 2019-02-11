@@ -1,0 +1,50 @@
+{
+  "name": "@wmfs/json-to-vuelidate",
+  "description": "Takes in a JSON object and products an object of vuelidate expressions.",
+  "version": "0.0.0-semantically-released",
+  "author": "West Midlands Fire Service",
+  "keywords": [
+    "tymly",
+    "package"
+  ],
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-register": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "@wmfs/cardscript-examples": "1.0.0",
+    "vuelidate": "0.7.4",
+    "chai": "4.2.0",
+    "codecov": "3.1.0",
+    "conventional-changelog-metahub": "2.0.2",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "5.2.0",
+    "nyc": "13.1.0",
+    "semantic-release": "15.13.3",
+    "standard": "12.0.1",
+    "@semantic-release/changelog": "3.0.2",
+    "@semantic-release/git": "7.0.8"
+  },
+  "scripts": {
+    "testold": "mocha --require babel-register",
+    "test": "nyc mocha && standard",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "semantic-release": "semantic-release"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmfs/json-to-vuelidate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmfs/json-to-vuelidate/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
