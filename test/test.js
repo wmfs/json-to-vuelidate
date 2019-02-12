@@ -1,8 +1,7 @@
 /* eslint-env mocha */
 
 const converter = require('./../lib/')
-// const chai = require('chai')
-// const expect = chai.expect
+const expect = require('chai').expect
 
 describe('Test the vuelidate converter', function () {
   it('Convert some JSON', () => {
@@ -15,6 +14,8 @@ describe('Test the vuelidate converter', function () {
         between: [20, 30]
       }
     })
-    console.log(vuelidate)
+    expect(vuelidate.name.required).to.be.a('function')
+    expect(vuelidate.name.minLength).to.be.a('function')
+    expect(vuelidate.age.between).to.be.a('function')
   })
 })
