@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.0.0...v1.1.0) (2019-02-12)
+
+
+### ✨ Features
+
+* move vuelidate to deps ([f16854a](https://github.com/wmfs/json-to-vuelidate/commit/f16854a))
+
 # 1.0.0 (2019-02-12)
 
 
