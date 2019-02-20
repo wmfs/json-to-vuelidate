@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.1.0...v1.2.0) (2019-02-20)
+
+
+### ✨ Features
+
+* requiredIf ([ecce1bb](https://github.com/wmfs/json-to-vuelidate/commit/ecce1bb))
+
 # [1.1.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.0.0...v1.1.0) (2019-02-12)
 
 
