@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.2.0...v1.3.0) (2019-04-01)
+
+
+### ✨ Features
+
+* allow Input.ApiLookup to be validated for cardscript, will work more to not be specific to cardscript ([56417c8](https://github.com/wmfs/json-to-vuelidate/commit/56417c8))
+
 # [1.2.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.1.0...v1.2.0) (2019-02-20)
 
 
