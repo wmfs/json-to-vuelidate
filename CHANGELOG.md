@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.3.0...v1.3.1) (2019-04-10)
+
+
+### 🐛 Bug Fixes
+
+* requiredIf ([6b87326](https://github.com/wmfs/json-to-vuelidate/commit/6b87326))
+
 # [1.3.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.2.0...v1.3.0) (2019-04-01)
 
 
