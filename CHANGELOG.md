@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.3.1...v1.4.0) (2019-04-16)
+
+
+### ✨ Features
+
+* beginnings of email validation ([b24435c](https://github.com/wmfs/json-to-vuelidate/commit/b24435c))
+
 ## [1.3.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.3.0...v1.3.1) (2019-04-10)
 
 
