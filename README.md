@@ -10,3 +10,5 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmfs/tymly/blob/master/packages/concrete-paths/LICENSE)
 
 > Takes in a JSON object and products an object of vuelidate expressions.
+
+See tests for example.
