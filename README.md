@@ -1,6 +1,6 @@
 # json-to-vuelidate
 
-[![Build Status](https://travis-ci.com/wmfs/json-to-vuelidate.svg?branch=master)](https://travis-ci.com/wmfs/json-to-vuelidate)
+[![CircleCI](https://circleci.com/gh/wmfs/json-to-vuelidate.svg?style=svg)](https://circleci.com/gh/wmfs/json-to-vuelidate)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/json-to-vuelidate.svg)](https://www.npmjs.com/package/@wmfs/json-to-vuelidate) 
 [![codecov](https://codecov.io/gh/wmfs/json-to-vuelidate/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/json-to-vuelidate) 
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/json-to-vuelidate/badge)](https://www.codefactor.io/repository/github/wmfs/json-to-vuelidate) 
