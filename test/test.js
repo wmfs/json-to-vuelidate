@@ -23,6 +23,19 @@ const JSON = {
   },
   textEmail: {
     email: true
+  },
+  inputEmail: {
+    email: true
+  },
+  list: {
+    required: true
+  },
+  apiLookup: {
+    params: {
+      apiLookupList: {
+        required: true
+      }
+    }
   }
 }
 
@@ -30,6 +43,7 @@ describe('Test the vuelidate converter', function () {
   it('Convert some JSON', () => {
     const vuelidate = converter(JSON)
 
+    console.log('\n------\n', vuelidate)
     expect(vuelidate.numberBetween5And10.between).to.be.a('function')
 
     expect(vuelidate.numberMin10Max50.minValue).to.be.a('function')
@@ -43,5 +57,9 @@ describe('Test the vuelidate converter', function () {
     expect(vuelidate.textRequiredIf.requiredIf).to.be.a('function')
 
     expect(vuelidate.textEmail.email).to.be.a('function')
+    expect(vuelidate.inputEmail.email).to.be.a('function')
+
+    expect(vuelidate.list.required).to.be.a('function')
+    expect(vuelidate.apiLookup.params.apiLookupList.required).to.be.a('function')
   })
 })
