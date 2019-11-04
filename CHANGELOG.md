@@ -1,3 +1,16 @@
+# [1.5.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.4.2...v1.5.0) (2019-11-04)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash.template requirement from 4.4.0 to 4.5.0 ([#25](https://github.com/wmfs/json-to-vuelidate/issues/25)) ([](https://github.com/wmfs/json-to-vuelidate/commit/f2a2cb9))
+* **deps-dev:** update dev dependancies ([](https://github.com/wmfs/json-to-vuelidate/commit/01738a8))
+
+
+### ♻️ Chores
+
+* **deps-dev:** update semantic-release requirement ([](https://github.com/wmfs/json-to-vuelidate/commit/43460e3))
+
 ## [1.4.2](https://github.com/wmfs/json-to-vuelidate/compare/v1.4.1...v1.4.2) (2019-07-24)
 
 
