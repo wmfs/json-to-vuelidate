@@ -10,7 +10,8 @@
   "main": "./lib/index.js",
   "dependencies": {
     "vuelidate": "0.7.4",
-    "lodash.template": "4.5.0"
+    "lodash.template": "4.5.0",
+    "google-libphonenumber": "3.2.6"
   },
   "devDependencies": {
     "babel-register": "6.26.0",
