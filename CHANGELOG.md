@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.5.0...v1.6.0) (2019-11-08)
+
+
+### ✨ Features
+
+* telephone number validation ([](https://github.com/wmfs/json-to-vuelidate/commit/02d028a))
+
 # [1.5.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.4.2...v1.5.0) (2019-11-04)
 
 
