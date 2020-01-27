@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.6.0...v1.7.0) (2020-01-27)
+
+
+### 🛠 Builds
+
+* **deps:** bump vuelidate from 0.7.4 to 0.7.5 ([0f82277](https://github.com/wmfs/json-to-vuelidate/commit/0f82277d398516cb0645f94ff7029d4dd6534104))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([0b79123](https://github.com/wmfs/json-to-vuelidate/commit/0b79123a2a599e4441053831b3b6488dc9c6cbb7))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([446c818](https://github.com/wmfs/json-to-vuelidate/commit/446c81852f444dee3c48eacaf64543f300ab8126))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.0 ([f491bed](https://github.com/wmfs/json-to-vuelidate/commit/f491bed061525d68a7bd34bc2241386f45f142e3))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([2e6e407](https://github.com/wmfs/json-to-vuelidate/commit/2e6e407408554e81b78e3467fc33f521cca28464))
+* **deps-dev:** bump packages ([e4a87e2](https://github.com/wmfs/json-to-vuelidate/commit/e4a87e25fb177a45dcef9e3776679624f019edce))
+
 # [1.6.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.5.0...v1.6.0) (2019-11-08)
 
 
