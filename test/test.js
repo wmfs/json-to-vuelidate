@@ -19,7 +19,7 @@ const JSON = {
     required: true
   },
   textRequiredIf: {
-    requiredIf: `data.pokemon = 'Psyduck' || data.pokemon = 'Pikachu'`
+    requiredIf: 'data.pokemon = \'Psyduck\' || data.pokemon = \'Pikachu\''
   },
   textEmail: {
     email: true
