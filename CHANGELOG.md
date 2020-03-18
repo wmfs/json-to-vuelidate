@@ -1,3 +1,31 @@
+# [1.8.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.7.0...v1.8.0) (2020-03-18)
+
+
+### 🛠 Builds
+
+* **deps:** bump google-libphonenumber from 3.2.6 to 3.2.8 ([#71](https://github.com/wmfs/json-to-vuelidate/issues/71)) ([d8d23cf](https://github.com/wmfs/json-to-vuelidate/commit/d8d23cf60e5d6d73b1d2b3cf4e0ecc39686932cf))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([1875dba](https://github.com/wmfs/json-to-vuelidate/commit/1875dbaa6ea9ba4aaf6f9bb856ee506fd41e504a))
+
+
+### ♻️ Chores
+
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([ce11f9a](https://github.com/wmfs/json-to-vuelidate/commit/ce11f9ad179866ed5d21ddf30be7b215069f9d3c))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([901b3a4](https://github.com/wmfs/json-to-vuelidate/commit/901b3a4671357c4c00cea5bca887aafa26e0f775))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([727eb49](https://github.com/wmfs/json-to-vuelidate/commit/727eb49ba4374a236b57517b3bd882eb8fa3d83a))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([77c3369](https://github.com/wmfs/json-to-vuelidate/commit/77c3369d61d375e319d69586295698db63fdd22c))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([22738b8](https://github.com/wmfs/json-to-vuelidate/commit/22738b8dbd8d48eb640e11ed2442998667eb9d1c))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([ddd7d0c](https://github.com/wmfs/json-to-vuelidate/commit/ddd7d0c6ac1a26b2beb0a2f3374249422f344001))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([4653bd7](https://github.com/wmfs/json-to-vuelidate/commit/4653bd79d21a58d2aec3e4b66008c0b37044668b))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.4 ([08c0fd2](https://github.com/wmfs/json-to-vuelidate/commit/08c0fd202ff40b7ae399e0df530e581a713ea0e3))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([539851a](https://github.com/wmfs/json-to-vuelidate/commit/539851abb1252426f03ec6b9a1d1a34be61407e9))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([3e3b09e](https://github.com/wmfs/json-to-vuelidate/commit/3e3b09eb7075eccc7520ba98465f64489368a4ee))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([50718a9](https://github.com/wmfs/json-to-vuelidate/commit/50718a9f794256432a946682c8adada60257c00a))
+
+
+### 💎 Styles
+
+* standard --fix ([bdc0eba](https://github.com/wmfs/json-to-vuelidate/commit/bdc0ebac2a22258b68c3d06cbb1f3f5faf4a86df))
+
 # [1.7.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.6.0...v1.7.0) (2020-01-27)
 
 
