@@ -1,3 +1,38 @@
+# [1.9.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.8.0...v1.9.0) (2020-06-16)
+
+
+### ✨ Features
+
+* validations for decimal/integers ([5f5f5e1](https://github.com/wmfs/json-to-vuelidate/commit/5f5f5e150958a9ca190130dd6a4c93832cff2b51))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([f0b8379](https://github.com/wmfs/json-to-vuelidate/commit/f0b8379a417f2fe282e0e6a332865c010be8e05b))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([86a294e](https://github.com/wmfs/json-to-vuelidate/commit/86a294e712267b675fc8fcde0d3dd79bed33fd07))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([f6daac6](https://github.com/wmfs/json-to-vuelidate/commit/f6daac6fb5e003a06a5e6f958c01fa5cf4a3e4c7))
+* **deps-dev:** bump mocha from 7.1.0 to 7.1.1 ([535415b](https://github.com/wmfs/json-to-vuelidate/commit/535415b8b67361cfa2792c4658dabef89201fe85))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([9aa1cef](https://github.com/wmfs/json-to-vuelidate/commit/9aa1cefc08f0bcb5b17f4ac8ec5b3e258d9d64f1))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([cb0cbc2](https://github.com/wmfs/json-to-vuelidate/commit/cb0cbc261d9025ab6fc612c600dc5ee9b4b678b5))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([1e96c7f](https://github.com/wmfs/json-to-vuelidate/commit/1e96c7ff55253ee5962e0ef2d3b35ee7f9cd471d))
+* **deps-dev:** bump nyc from 15.0.0 to 15.0.1 ([90a6eef](https://github.com/wmfs/json-to-vuelidate/commit/90a6eef7c9506392962aabc394876b76bb67d2ff))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([dafb03e](https://github.com/wmfs/json-to-vuelidate/commit/dafb03e80250b632fc7d9479b2b2cfdf6586109c))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([ffa343f](https://github.com/wmfs/json-to-vuelidate/commit/ffa343fb8827fd4b9952e92809435513ac3dd2bb))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([f2cac83](https://github.com/wmfs/json-to-vuelidate/commit/f2cac838f87eaaafa010dc5965a7f31ff37b7436))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([7cd73b1](https://github.com/wmfs/json-to-vuelidate/commit/7cd73b116021886d2faa8e2949f70bdd87a7e3b1))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([c3aa022](https://github.com/wmfs/json-to-vuelidate/commit/c3aa0224913f38e7328ff478a71d3d8f8cf16205))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([217d144](https://github.com/wmfs/json-to-vuelidate/commit/217d144f60d30b5a42f4f9902e7264529bcb12e7))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([2e1ce13](https://github.com/wmfs/json-to-vuelidate/commit/2e1ce130ff559142042bdad27f7509c242d0fba2))
+
+
+### 💎 Styles
+
+* standard fix ([0ba6a1b](https://github.com/wmfs/json-to-vuelidate/commit/0ba6a1be0f57635f2b3910e40c39b2313fed6f3c))
+
 # [1.8.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.7.0...v1.8.0) (2020-03-18)
 
 
