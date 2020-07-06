@@ -1,3 +1,17 @@
+# [1.10.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.9.0...v1.10.0) (2020-07-06)
+
+
+### 🛠 Builds
+
+* **deps:** bump google-libphonenumber from 3.2.8 to 3.2.10 ([#83](https://github.com/wmfs/json-to-vuelidate/issues/83)) ([f9786ea](https://github.com/wmfs/json-to-vuelidate/commit/f9786eaf4035daf169883c62ed67a9e77392a625))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([f4571f5](https://github.com/wmfs/json-to-vuelidate/commit/f4571f586d5801cb94b4c6829bafa49cc709d46a))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([293bd00](https://github.com/wmfs/json-to-vuelidate/commit/293bd0047d6e912c959aa8569a060d73d49ef60e))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([11fffbf](https://github.com/wmfs/json-to-vuelidate/commit/11fffbf96c742e84d184359e0e77e4640dce3299))
+
 # [1.9.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.8.0...v1.9.0) (2020-06-16)
 
 
