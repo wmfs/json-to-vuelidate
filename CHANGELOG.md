@@ -1,3 +1,19 @@
+# [1.11.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.10.0...v1.11.0) (2020-08-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump google-libphonenumber from 3.2.10 to 3.2.12 ([e41914b](https://github.com/wmfs/json-to-vuelidate/commit/e41914b8ef9972cf072ee9f3b5893e90002c7b99))
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([0d73886](https://github.com/wmfs/json-to-vuelidate/commit/0d73886ba1cae19b680b117b8b1f284b1e424757))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([dadd93a](https://github.com/wmfs/json-to-vuelidate/commit/dadd93ae0fb4fa2d183022976e143ecf3430d8e0))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([183340e](https://github.com/wmfs/json-to-vuelidate/commit/183340eac3a878fea06ecc20f449f08a812cb302))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([cd35623](https://github.com/wmfs/json-to-vuelidate/commit/cd356238ccf9bc40b71e52dcfee12c50efb91a23))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([9221602](https://github.com/wmfs/json-to-vuelidate/commit/9221602e5a517b42482f14a4da49c711abda0824))
+
 # [1.10.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.9.0...v1.10.0) (2020-07-06)
 
 
