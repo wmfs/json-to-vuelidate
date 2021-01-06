@@ -1,3 +1,35 @@
+# [1.13.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.12.0...v1.13.0) (2021-01-06)
+
+
+### 🛠 Builds
+
+* **deps:** bump vuelidate from 0.7.5 to 0.7.6 ([7eaf607](https://github.com/wmfs/json-to-vuelidate/commit/7eaf607a61379a7bd33a29d2652af64c88376731))
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([94ec458](https://github.com/wmfs/json-to-vuelidate/commit/94ec4585be8f7fe547537a544b40330edf3c6bf2))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([385a599](https://github.com/wmfs/json-to-vuelidate/commit/385a59931ef71635326a43ae812bc6a5ea372ae1))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([b976dc9](https://github.com/wmfs/json-to-vuelidate/commit/b976dc9d63fac772766fae1762aeecb926e8b98f))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([b227ab5](https://github.com/wmfs/json-to-vuelidate/commit/b227ab5659fc86b6e74935668761613d4b5d1cb8))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.0 ([230c60e](https://github.com/wmfs/json-to-vuelidate/commit/230c60ee6255652590f66e8c624811239bdd03ce))
+* **deps-dev:** bump semantic-release from 17.2.0 to 17.2.1 ([e6de8e9](https://github.com/wmfs/json-to-vuelidate/commit/e6de8e9311bd7e5c4c5ebf02d8563431721fc41a))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([7c24760](https://github.com/wmfs/json-to-vuelidate/commit/7c247606448cfb6f71af2e58f0b96591718797b0))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([f781213](https://github.com/wmfs/json-to-vuelidate/commit/f781213956abd3c78aecc470df0e69b4742d6217))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([08a31dc](https://github.com/wmfs/json-to-vuelidate/commit/08a31dc6c6e434427968d7caeacbf0d4e28809c8))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([a39dbae](https://github.com/wmfs/json-to-vuelidate/commit/a39dbae4bb055d8fea4fb87765c9bd79494cab74))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([31728fd](https://github.com/wmfs/json-to-vuelidate/commit/31728fd07c0cfe2a4f5df3d3c8728cdd58b4f949))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([79713e1](https://github.com/wmfs/json-to-vuelidate/commit/79713e1a8ab162bc7ada0809187fdec3df77eee1))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([8d0b88d](https://github.com/wmfs/json-to-vuelidate/commit/8d0b88dbf2fb819ab5e2f138a22dfcace847cc01))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.0 ([6146cf8](https://github.com/wmfs/json-to-vuelidate/commit/6146cf8578bd15e00a1bb2dea7a0097ae90a621d))
+* **deps-dev:** bump standard from 16.0.0 to 16.0.1 ([8ea3eed](https://github.com/wmfs/json-to-vuelidate/commit/8ea3eedfd694e034665bb1b872363e2acb062ed3))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.2 ([676ef78](https://github.com/wmfs/json-to-vuelidate/commit/676ef78cf726e442740be241a5dc805387af828a))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([d2c8185](https://github.com/wmfs/json-to-vuelidate/commit/d2c81856b4fe550b4872195f418bd2de3d172219))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([2e0d563](https://github.com/wmfs/json-to-vuelidate/commit/2e0d563fbcf9ca3370824c2f328ad8ee84de0929))
+* **circle:** cache dependencies [ch2770] ([88b2bd6](https://github.com/wmfs/json-to-vuelidate/commit/88b2bd6ead70424c85d1535d7cda2784dcec405a))
+* **circle:** separate linting job [ch1009] ([f7244b2](https://github.com/wmfs/json-to-vuelidate/commit/f7244b212b98f53b6b038cc3c0918ff52f5e8862))
+* **circle:** update build environment variable context name [ch2771] ([ee12295](https://github.com/wmfs/json-to-vuelidate/commit/ee122955727622d0c582021337c20a444c82b592))
+
 # [1.12.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.11.0...v1.12.0) (2020-09-28)
 
 
