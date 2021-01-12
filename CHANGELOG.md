@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.13.0...v1.14.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump google-libphonenumber from 3.2.13 to 3.2.15 ([27e976b](https://github.com/wmfs/json-to-vuelidate/commit/27e976b295f2097a4ace51f5fe853ed3b3a84598))
+
 # [1.13.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.12.0...v1.13.0) (2021-01-06)
 
 
