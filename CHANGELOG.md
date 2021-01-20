@@ -1,3 +1,13 @@
+# [1.15.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.14.0...v1.15.0) (2021-01-20)
+
+
+### 🛠 Builds
+
+* **deps:** bump google-libphonenumber from 3.2.15 to 3.2.16 ([fccd2eb](https://github.com/wmfs/json-to-vuelidate/commit/fccd2eb6126c4caabf5930237730913fdc2bce0a))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([f9c2485](https://github.com/wmfs/json-to-vuelidate/commit/f9c248550ba4e6e0f89b82f81f8cd7086e4df729))
+* **deps-dev:** bump semantic-release from 17.3.2 to 17.3.3 ([19de310](https://github.com/wmfs/json-to-vuelidate/commit/19de310b008e6478686fb16da5df778105e3c76d))
+* **deps-dev:** bump semantic-release from 17.3.3 to 17.3.4 ([0d69988](https://github.com/wmfs/json-to-vuelidate/commit/0d69988710fa8c8e83399602ea48a499c910f02b))
+
 # [1.14.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.13.0...v1.14.0) (2021-01-12)
 
 
