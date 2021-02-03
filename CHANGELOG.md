@@ -1,3 +1,17 @@
+# [1.16.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.15.0...v1.16.0) (2021-02-03)
+
+
+### ✨ Features
+
+* custom maximum validator ([e3467cf](https://github.com/wmfs/json-to-vuelidate/commit/e3467cf510eab3a6704407f341a42340796025fe))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.5 ([6712254](https://github.com/wmfs/json-to-vuelidate/commit/67122548423661af59d5946a228c9a66501da668))
+* **deps-dev:** bump semantic-release from 17.3.5 to 17.3.6 ([c344b3d](https://github.com/wmfs/json-to-vuelidate/commit/c344b3d0b28c17a5cd3e300028f8e91fbbb00bb3))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([1646f36](https://github.com/wmfs/json-to-vuelidate/commit/1646f369dddd32bf0b7d79f641aec72d61ce9266))
+
 # [1.15.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.14.0...v1.15.0) (2021-01-20)
 
 
