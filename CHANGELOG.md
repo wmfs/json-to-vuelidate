@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.20.0...v1.20.1) (2021-06-08)
+
+
+### 🐛 Bug Fixes
+
+* ensure postcode is not null before checking ([2c4b2ca](https://github.com/wmfs/json-to-vuelidate/commit/2c4b2ca6c9625128ed54db97ba3c3ff14c971222))
+
 # [1.20.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.19.0...v1.20.0) (2021-06-08)
 
 
