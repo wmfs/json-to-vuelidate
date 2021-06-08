@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.20.1...v1.21.0) (2021-06-08)
+
+
+### ✨ Features
+
+* allow custom rejex to be validated against ([f6a4687](https://github.com/wmfs/json-to-vuelidate/commit/f6a468727db615e54bfb481b249cde5d2e51ed22))
+
 ## [1.20.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.20.0...v1.20.1) (2021-06-08)
 
 
