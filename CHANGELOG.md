@@ -1,3 +1,15 @@
+# [1.20.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.19.0...v1.20.0) (2021-06-08)
+
+
+### ✨ Features
+
+* postcode validator ([aad435b](https://github.com/wmfs/json-to-vuelidate/commit/aad435bdd7cf13637a1c60904b4b5be7e4732f41))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump mocha from 8.4.0 to 9.0.0 ([4e6efe7](https://github.com/wmfs/json-to-vuelidate/commit/4e6efe7af47880c73a79a64492519e39a08ab9f2))
+
 # [1.19.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.18.0...v1.19.0) (2021-05-26)
 
 
