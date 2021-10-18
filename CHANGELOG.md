@@ -1,3 +1,36 @@
+# [1.22.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.21.0...v1.22.0) (2021-10-18)
+
+
+### ✨ Features
+
+* accept minimum date and maximum date conditions ([0874fb9](https://github.com/wmfs/json-to-vuelidate/commit/0874fb9682a06144a1de800f005454978967efd2))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump codecov from 3.8.2 to 3.8.3 ([bdc99f5](https://github.com/wmfs/json-to-vuelidate/commit/bdc99f5a494fdc73a0cc5d2af3342cd9823e28aa))
+* **deps-dev:** bump mocha from 9.0.0 to 9.0.1 ([ce3af3a](https://github.com/wmfs/json-to-vuelidate/commit/ce3af3a91fade4eb31e52c22102a71cf51b87765))
+* **deps-dev:** bump mocha from 9.0.1 to 9.0.2 ([98f1a0b](https://github.com/wmfs/json-to-vuelidate/commit/98f1a0baa7ef8df39d29757302143670dd770166))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([0606aa5](https://github.com/wmfs/json-to-vuelidate/commit/0606aa50207b52089d426405211a88cbe1167bb5))
+* **deps-dev:** bump semantic-release from 17.4.3 to 17.4.4 ([8a194a7](https://github.com/wmfs/json-to-vuelidate/commit/8a194a70ecc1637240ee8b43b3453520ef736bd7))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([8316cdd](https://github.com/wmfs/json-to-vuelidate/commit/8316cdd04dc1236caa185265404eccdc20322ef1))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([0a1054d](https://github.com/wmfs/json-to-vuelidate/commit/0a1054dbee6e78bc82f3832405ed15c84e04411f))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([4d3bd51](https://github.com/wmfs/json-to-vuelidate/commit/4d3bd51d14c098e41753c8012fde303922cf545e))
+* **deps-dev:** update dependency mocha to v9.1.0 ([64f713c](https://github.com/wmfs/json-to-vuelidate/commit/64f713c629a0ae2b6210a2a3c00f71b1fe5c0381))
+* **deps-dev:** update dependency mocha to v9.1.1 ([399a620](https://github.com/wmfs/json-to-vuelidate/commit/399a620afc572bc0687b3610f406e536211a3dbd))
+* **deps-dev:** update dependency mocha to v9.1.2 ([1cdd405](https://github.com/wmfs/json-to-vuelidate/commit/1cdd40586cfbac2161daaea34cb27af2012f8725))
+* **deps-dev:** update dependency mocha to v9.1.3 ([ba794f5](https://github.com/wmfs/json-to-vuelidate/commit/ba794f5f4f4116e348829972fb4c0bf163a652e1))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([1a092e0](https://github.com/wmfs/json-to-vuelidate/commit/1a092e0c2459fdeb9324f3d486cae3e45cc1786b))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([01c56c7](https://github.com/wmfs/json-to-vuelidate/commit/01c56c759d4d59adbac5e83463a84a22a4b9db3e))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([7775707](https://github.com/wmfs/json-to-vuelidate/commit/777570759878e478d1d48af64303b6ab4c5b119d))
+* **deps-dev:** update dependency semantic-release to v18 ([9becb66](https://github.com/wmfs/json-to-vuelidate/commit/9becb66e3fb1a869d852381ace22cd3a89e03877))
+* **deps-dev:** update dependency standard to v16.0.4 ([e669ec4](https://github.com/wmfs/json-to-vuelidate/commit/e669ec48703797c6db5fd3b59721e74b580efc5d))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([59769a7](https://github.com/wmfs/json-to-vuelidate/commit/59769a781465e1c3afc681f2a6bb3260c5794b30))
+
 # [1.21.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.20.1...v1.21.0) (2021-06-08)
 
 
