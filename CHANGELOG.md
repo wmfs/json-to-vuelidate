@@ -1,3 +1,20 @@
+## [1.22.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.22.0...v1.22.1) (2021-10-18)
+
+
+### 🐛 Bug Fixes
+
+* if undefined then return true because nothing to validate ([a49a51c](https://github.com/wmfs/json-to-vuelidate/commit/a49a51ce8a70bbcd6373b0ef51f205a1605ea3ac))
+
+
+### 📦 Code Refactoring
+
+* simplify re-used functions ([9661070](https://github.com/wmfs/json-to-vuelidate/commit/96610707dfa9323391dfd60a8c73a9fe602148ce))
+
+
+### 🚨 Tests
+
+* add tests for min/max date validations ([c33de28](https://github.com/wmfs/json-to-vuelidate/commit/c33de2858257bcf6b2e37c3a72220fe765a8b2ef))
+
 # [1.22.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.21.0...v1.22.0) (2021-10-18)
 
 
