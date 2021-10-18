@@ -2,6 +2,7 @@
 
 const converter = require('./../lib/')
 const expect = require('chai').expect
+const moment = require('moment')
 
 const JSON = {
   numberBetween5And10: {
@@ -36,12 +37,20 @@ const JSON = {
         required: true
       }
     }
+  },
+  dateOfBirth: {
+    maximumDate: new Date()
+  },
+  min3DaysAgo: {
+    minimumDate: moment().subtract(3, 'days').format('YYYY/MM/DD')
   }
 }
 
 describe('Test the vuelidate converter', function () {
+  let vuelidate
+
   it('Convert some JSON', () => {
-    const vuelidate = converter(JSON)
+    vuelidate = converter(JSON)
 
     console.log('\n------\n', vuelidate)
     expect(vuelidate.numberBetween5And10.between).to.be.a('function')
@@ -61,5 +70,43 @@ describe('Test the vuelidate converter', function () {
 
     expect(vuelidate.list.required).to.be.a('function')
     expect(vuelidate.apiLookup.params.apiLookupList.required).to.be.a('function')
+
+    expect(vuelidate.dateOfBirth.maximumDate).to.be.a('function')
+
+    expect(vuelidate.min3DaysAgo.minimumDate).to.be.a('function')
+  })
+
+  it('test the validation function for minimum date', () => {
+    const fn = vuelidate.min3DaysAgo.minimumDate
+
+    const oneWeekAgo = moment().subtract(7, 'day')
+    const today = moment()
+    const tomorrow = moment().add(1, 'day')
+
+    const oneWeekAgoResult = fn(oneWeekAgo)
+    expect(oneWeekAgoResult).to.eql(false)
+
+    const todayResult = fn(today)
+    expect(todayResult).to.eql(true)
+
+    const tomorrowResult = fn(tomorrow)
+    expect(tomorrowResult).to.eql(true)
+  })
+
+  it('test the validation function for maximum date', () => {
+    const fn = vuelidate.dateOfBirth.maximumDate
+
+    const yesterday = moment().subtract(1, 'day')
+    const today = moment()
+    const tomorrow = moment().add(1, 'day')
+
+    const yesterdayResult = fn(yesterday)
+    expect(yesterdayResult).to.eql(true)
+
+    const todayResult = fn(today)
+    expect(todayResult).to.eql(false)
+
+    const tomorrowResult = fn(tomorrow)
+    expect(tomorrowResult).to.eql(false)
   })
 })
