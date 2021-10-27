@@ -1,3 +1,10 @@
+## [1.22.2](https://github.com/wmfs/json-to-vuelidate/compare/v1.22.1...v1.22.2) (2021-10-27)
+
+
+### 🐛 Bug Fixes
+
+* simpler logic of comparing min/max dates ([f1d1a2e](https://github.com/wmfs/json-to-vuelidate/commit/f1d1a2e632858f631a4f6785ea2ce6398da6c505))
+
 ## [1.22.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.22.0...v1.22.1) (2021-10-18)
 
 
