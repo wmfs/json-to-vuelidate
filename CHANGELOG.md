@@ -1,3 +1,10 @@
+## [1.22.3](https://github.com/wmfs/json-to-vuelidate/compare/v1.22.2...v1.22.3) (2021-10-27)
+
+
+### 🐛 Bug Fixes
+
+* compare dates to be inclusive and precise to the day ([10fb6aa](https://github.com/wmfs/json-to-vuelidate/commit/10fb6aa3e512704d40915f6591a4000368bff49c))
+
 ## [1.22.2](https://github.com/wmfs/json-to-vuelidate/compare/v1.22.1...v1.22.2) (2021-10-27)
 
 
