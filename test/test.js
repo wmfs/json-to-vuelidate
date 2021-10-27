@@ -82,6 +82,7 @@ describe('Test the vuelidate converter', function () {
     const oneWeekAgo = moment().subtract(7, 'day')
     const today = moment()
     const tomorrow = moment().add(1, 'day')
+    const threeDaysAgo = moment().subtract(3, 'days')
 
     const oneWeekAgoResult = fn(oneWeekAgo)
     expect(oneWeekAgoResult).to.eql(false)
@@ -91,6 +92,9 @@ describe('Test the vuelidate converter', function () {
 
     const tomorrowResult = fn(tomorrow)
     expect(tomorrowResult).to.eql(true)
+
+    const threeDaysAgoResult = fn(threeDaysAgo)
+    expect(threeDaysAgoResult).to.eql(true)
   })
 
   it('test the validation function for maximum date', () => {
