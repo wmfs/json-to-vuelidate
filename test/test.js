@@ -76,41 +76,29 @@ describe('Test the vuelidate converter', function () {
     expect(vuelidate.min3DaysAgo.minimumDate).to.be.a('function')
   })
 
-  it('test the validation function for minimum date', () => {
-    const fn = vuelidate.min3DaysAgo.minimumDate
+  const dates = [
+    ['1 year ago', moment().subtract(1, 'year'), false, true],
+    ['7 days ago', moment().subtract(7, 'day'), false, true],
+    ['4 days ago', moment().subtract(4, 'day'), false, true],
+    ['3 days ago', moment().subtract(3, 'day'), true, true],
+    ['yesterday', moment().subtract(1, 'day'), true, true],
+    ['today', moment(), true, true],
+    ['tomorrow', moment().add(1, 'day'), true, false],
+    ['3 days ahead', moment().add(3, 'day'), true, false],
+    ['4 days ahead', moment().add(4, 'day'), true, false],
+    ['7 days ahead', moment().add(7, 'day'), true, false],
+    ['1 year ahead', moment().add(1, 'year'), true, false]
+  ]
 
-    const oneWeekAgo = moment().subtract(7, 'day')
-    const today = moment()
-    const tomorrow = moment().add(1, 'day')
-    const threeDaysAgo = moment().subtract(3, 'days')
-
-    const oneWeekAgoResult = fn(oneWeekAgo)
-    expect(oneWeekAgoResult).to.eql(false)
-
-    const threeDaysAgoResult = fn(threeDaysAgo)
-    expect(threeDaysAgoResult).to.eql(true)
-
-    const todayResult = fn(today)
-    expect(todayResult).to.eql(true)
-
-    const tomorrowResult = fn(tomorrow)
-    expect(tomorrowResult).to.eql(true)
+  describe('Test the validation function for minimum date', () => {
+    for (const [label, date, minResult] of dates) {
+      it(label, () => expect(vuelidate.min3DaysAgo.minimumDate(date)).to.eql(minResult))
+    }
   })
 
-  it('test the validation function for maximum date', () => {
-    const fn = vuelidate.dateOfBirth.maximumDate
-
-    const yesterday = moment().subtract(1, 'day')
-    const today = moment()
-    const tomorrow = moment().add(1, 'day')
-
-    const yesterdayResult = fn(yesterday)
-    expect(yesterdayResult).to.eql(true)
-
-    const todayResult = fn(today)
-    expect(todayResult).to.eql(true)
-
-    const tomorrowResult = fn(tomorrow)
-    expect(tomorrowResult).to.eql(false)
+  describe('Test the validation function for maximum date', () => {
+    for (const [label, date, , maxResult] of dates) {
+      it(label, () => expect(vuelidate.dateOfBirth.maximumDate(date)).to.eql(maxResult))
+    }
   })
 })
