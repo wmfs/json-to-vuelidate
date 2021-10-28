@@ -92,13 +92,13 @@ describe('Test the vuelidate converter', function () {
 
   describe('Test the validation function for minimum date', () => {
     for (const [label, date, minResult] of dates) {
-      it(label, () => expect(vuelidate.min3DaysAgo.minimumDate(date)).to.eql(minResult))
+      it(`${label}, should${minResult ? '' : ' not'} be after 3 days ago`, () => expect(vuelidate.min3DaysAgo.minimumDate(date)).to.eql(minResult))
     }
   })
 
   describe('Test the validation function for maximum date', () => {
     for (const [label, date, , maxResult] of dates) {
-      it(label, () => expect(vuelidate.dateOfBirth.maximumDate(date)).to.eql(maxResult))
+      it(`${label}, should${maxResult ? '' : ' not'} be before today`, () => expect(vuelidate.dateOfBirth.maximumDate(date)).to.eql(maxResult))
     }
   })
 })
