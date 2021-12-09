@@ -1,3 +1,18 @@
+# [1.23.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.22.3...v1.23.0) (2021-12-09)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([4fed5c6](https://github.com/wmfs/json-to-vuelidate/commit/4fed5c6439b66e3de4d339f30954dcc9edb149ac))
+* **deps-dev:** update semantic-release monorepo ([8ca62db](https://github.com/wmfs/json-to-vuelidate/commit/8ca62dbb892ff384edb65ee1936f82e324a851bb))
+* **deps:** update dependency vuelidate to v0.7.7 ([aedd1af](https://github.com/wmfs/json-to-vuelidate/commit/aedd1af0bf754447ec98f35eaf09904cb0576e9d))
+
+
+### 🚨 Tests
+
+* better labels for comparing min/max dates ([ccc5f43](https://github.com/wmfs/json-to-vuelidate/commit/ccc5f434c4ae9142ade2c7c62db7bf65a8915df9))
+* enhance tests for min/max dates ([72ea867](https://github.com/wmfs/json-to-vuelidate/commit/72ea867adeaf4487927b33ae50fe894c6c030bb7))
+
 ## [1.22.3](https://github.com/wmfs/json-to-vuelidate/compare/v1.22.2...v1.22.3) (2021-10-27)
 
 
