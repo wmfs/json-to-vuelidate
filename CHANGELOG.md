@@ -1,3 +1,13 @@
+# [1.24.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.23.0...v1.24.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency mocha to v9.1.4 ([656944c](https://github.com/wmfs/json-to-vuelidate/commit/656944c937c202d005de92dce768d377ff945a69))
+* **deps-dev:** update dependency mocha to v9.2.0 ([c2b27c8](https://github.com/wmfs/json-to-vuelidate/commit/c2b27c82651e0cb76427e34d9195edfc0251800a))
+* **deps-dev:** update dependency semantic-release to v19 ([3086076](https://github.com/wmfs/json-to-vuelidate/commit/30860760fd8db420b3a8ddc75b1618b72b089f1b))
+* **deps:** update dependency google-libphonenumber to v3.2.26 ([cfd1c95](https://github.com/wmfs/json-to-vuelidate/commit/cfd1c9581ddd32e847651ce639c925bb18aa7494))
+
 # [1.23.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.22.3...v1.23.0) (2021-12-09)
 
 
