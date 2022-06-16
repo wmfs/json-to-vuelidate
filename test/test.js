@@ -4,7 +4,7 @@ const converter = require('./../lib/')
 const expect = require('chai').expect
 const moment = require('moment')
 
-const JSON = {
+const input = {
   numberBetween5And10: {
     between: [5, 10]
   },
@@ -43,6 +43,9 @@ const JSON = {
   },
   min3DaysAgo: {
     minimumDate: moment().subtract(3, 'days').format('YYYY/MM/DD')
+  },
+  telNum: {
+    telephoneNumber: true
   }
 }
 
@@ -50,30 +53,34 @@ describe('Test the vuelidate converter', function () {
   let vuelidate
 
   it('Convert some JSON', () => {
-    vuelidate = converter(JSON)
+    vuelidate = converter(input)
 
-    console.log('\n------\n', vuelidate)
-    expect(vuelidate.numberBetween5And10.between).to.be.a('function')
+    console.log('------')
+    console.log(JSON.stringify(vuelidate, null, 2))
+    console.log('------')
 
-    expect(vuelidate.numberMin10Max50.minValue).to.be.a('function')
-    expect(vuelidate.numberMin10Max50.maxValue).to.be.a('function')
+    expect(vuelidate.numberBetween5And10.between.$validator).to.be.a('function')
 
-    expect(vuelidate.textMinLen5MaxLen50.minLength).to.be.a('function')
-    expect(vuelidate.textMinLen5MaxLen50.maxLength).to.be.a('function')
+    expect(vuelidate.numberMin10Max50.minValue.$validator).to.be.a('function')
+    expect(vuelidate.numberMin10Max50.maxValue.$validator).to.be.a('function')
 
-    expect(vuelidate.textRequired.required).to.be.a('function')
+    expect(vuelidate.textMinLen5MaxLen50.minLength.$validator).to.be.a('function')
+    expect(vuelidate.textMinLen5MaxLen50.maxLength.$validator).to.be.a('function')
 
-    expect(vuelidate.textRequiredIf.requiredIf).to.be.a('function')
+    expect(vuelidate.textRequired.required.$validator).to.be.a('function')
 
-    expect(vuelidate.textEmail.email).to.be.a('function')
-    expect(vuelidate.inputEmail.email).to.be.a('function')
+    expect(vuelidate.textRequiredIf.requiredIf.$validator).to.be.a('function')
 
-    expect(vuelidate.list.required).to.be.a('function')
-    expect(vuelidate.apiLookup.params.apiLookupList.required).to.be.a('function')
+    expect(vuelidate.textEmail.email.$validator).to.be.a('function')
+    expect(vuelidate.inputEmail.email.$validator).to.be.a('function')
 
-    expect(vuelidate.dateOfBirth.maximumDate).to.be.a('function')
+    expect(vuelidate.list.required.$validator).to.be.a('function')
+    expect(vuelidate.apiLookup.params.apiLookupList.required.$validator).to.be.a('function')
 
-    expect(vuelidate.min3DaysAgo.minimumDate).to.be.a('function')
+    expect(vuelidate.dateOfBirth.maximumDate.$validator).to.be.a('function')
+    expect(vuelidate.min3DaysAgo.minimumDate.$validator).to.be.a('function')
+
+    expect(vuelidate.telNum.telephoneNumber.$validator).to.be.a('function')
   })
 
   const dates = [
@@ -92,13 +99,46 @@ describe('Test the vuelidate converter', function () {
 
   describe('Test the validation function for minimum date', () => {
     for (const [label, date, minResult] of dates) {
-      it(`${label}, should${minResult ? '' : ' not'} be after 3 days ago`, () => expect(vuelidate.min3DaysAgo.minimumDate(date)).to.eql(minResult))
+      it(`${label}, should${minResult ? '' : ' not'} be after 3 days ago`, () => expect(vuelidate.min3DaysAgo.minimumDate.$validator(date)).to.eql(minResult))
     }
   })
 
   describe('Test the validation function for maximum date', () => {
     for (const [label, date, , maxResult] of dates) {
-      it(`${label}, should${maxResult ? '' : ' not'} be before today`, () => expect(vuelidate.dateOfBirth.maximumDate(date)).to.eql(maxResult))
+      it(`${label}, should${maxResult ? '' : ' not'} be before today`, () => expect(vuelidate.dateOfBirth.maximumDate.$validator(date)).to.eql(maxResult))
+    }
+  })
+
+  describe('Test the validation function for between', () => {
+    for (let i = 0; i < 30; i++) {
+      it(`Is ${i} between 5 and 10?`, () => {
+        const expected = i >= 5 && i <= 10
+
+        expect(
+          vuelidate.numberBetween5And10.between.$validator(i)
+        ).to.eql(
+          expected
+        )
+      })
+    }
+  })
+
+  describe('Test the validation function for telephone number', () => {
+    const telephoneNumbers = [
+      ['07123456789', true],
+      ['01211234567', true],
+      ['0121133', false],
+      ['fjahsf', false]
+    ]
+
+    for (const [telephoneNumber, expected] of telephoneNumbers) {
+      it(`Is ${telephoneNumber} a telephone number?`, () => {
+        expect(
+          vuelidate.telNum.telephoneNumber.$validator(telephoneNumber)
+        ).to.eql(
+          expected
+        )
+      })
     }
   })
 })
