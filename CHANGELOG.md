@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.24.1...v1.25.0) (2022-06-16)
+
+
+### 🛠 Builds
+
+* **deps:** change [@vue](https://github.com/vue)/composition-api to vue ([65984c7](https://github.com/wmfs/json-to-vuelidate/commit/65984c7b05d176f6702a4da55700de46a019688e))
+
 ## [1.24.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.24.0...v1.24.1) (2022-06-16)
 
 
