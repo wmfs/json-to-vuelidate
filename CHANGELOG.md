@@ -1,3 +1,23 @@
+## [1.24.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.24.0...v1.24.1) (2022-06-16)
+
+
+### 🐛 Bug Fixes
+
+* convert instance from Proxy object to regular object for parsing template ([23607c4](https://github.com/wmfs/json-to-vuelidate/commit/23607c4c5447681dc2134f59e829494a47d9b727))
+* ensure all validators are same format using the vuelidate helper function ([8e680e0](https://github.com/wmfs/json-to-vuelidate/commit/8e680e078c670216d8dc15a576863f80027afac7))
+* use latest vuelidate validators for Vue 3 ([c9e86b4](https://github.com/wmfs/json-to-vuelidate/commit/c9e86b40fd2800310cf1ca89c8540261f3be00c6))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency chai to v4.3.5 ([6fc9656](https://github.com/wmfs/json-to-vuelidate/commit/6fc9656888e1bbb59743b3acea5024fd2ed4011a))
+* **deps-dev:** update dependency chai to v4.3.6 ([cd80d93](https://github.com/wmfs/json-to-vuelidate/commit/cd80d9350c434b13b6bebd6bee792790914e4aad))
+* **deps-dev:** update dependency mocha to v10 ([a2e7b1a](https://github.com/wmfs/json-to-vuelidate/commit/a2e7b1a579ecbecd943e6eaacd558b507530a180))
+* **deps-dev:** update dependency mocha to v9.2.1 ([0439260](https://github.com/wmfs/json-to-vuelidate/commit/04392606932397356737bf8d2e3f6468de9d21c9))
+* **deps-dev:** update dependency mocha to v9.2.2 ([8be430b](https://github.com/wmfs/json-to-vuelidate/commit/8be430b62495df2e140d77247ffbef762de1d661))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([255ed3b](https://github.com/wmfs/json-to-vuelidate/commit/255ed3b9263e2d39173831f9ee80d8c7288ab3ba))
+* **deps-dev:** update dependency standard to v17 ([d962379](https://github.com/wmfs/json-to-vuelidate/commit/d9623792a31c905aaab5bc3f2a4c3285340dbb50))
+
 # [1.24.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.23.0...v1.24.0) (2022-01-25)
 
 
