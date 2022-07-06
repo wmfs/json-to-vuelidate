@@ -1,3 +1,11 @@
+# [1.26.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.25.0...v1.26.0) (2022-07-06)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@vuelidate](https://github.com/vuelidate)/validators to v2.0.0-alpha.30 ([f73d52d](https://github.com/wmfs/json-to-vuelidate/commit/f73d52d907825c2311437c1d865b36a836d2a9a0))
+* **deps:** update dependency vue to v3.2.37 ([00584fa](https://github.com/wmfs/json-to-vuelidate/commit/00584fa5583f799c022577cc18ef0f01b36a7b84))
+
 # [1.25.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.24.1...v1.25.0) (2022-06-16)
 
 
