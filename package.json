@@ -13,7 +13,7 @@
     "@vuelidate/validators": "2.0.0-alpha.30",
     "google-libphonenumber": "3.2.26",
     "lodash.template": "4.5.0",
-    "moment": "2.29.1"
+    "moment": "2.29.4"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.1",
