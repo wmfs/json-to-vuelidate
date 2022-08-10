@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.26.0...v1.27.0) (2022-08-10)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency moment to v2.29.4 [security] ([0cbd67f](https://github.com/wmfs/json-to-vuelidate/commit/0cbd67f0b0e0ee67bab4c3e733ce0f10ae8e211f))
+
 # [1.26.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.25.0...v1.26.0) (2022-07-06)
 
 
