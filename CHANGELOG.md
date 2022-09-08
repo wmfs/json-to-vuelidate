@@ -1,3 +1,16 @@
+## [1.27.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.27.0...v1.27.1) (2022-09-08)
+
+
+### 🐛 Bug Fixes
+
+* check string not empty when validating regex ([03d58a8](https://github.com/wmfs/json-to-vuelidate/commit/03d58a8edcf6c56d4208edb0775d7a8c0c137f9a))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency semantic-release to v19.0.4 ([81965d3](https://github.com/wmfs/json-to-vuelidate/commit/81965d37d576e3bb3c1f1dd5a942e0e7a442998f))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([f084d3d](https://github.com/wmfs/json-to-vuelidate/commit/f084d3d01100b306781d6c183644f35610701126))
+
 # [1.27.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.26.0...v1.27.0) (2022-08-10)
 
 
