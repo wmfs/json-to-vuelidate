@@ -1,3 +1,11 @@
+# [1.28.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.27.1...v1.28.0) (2022-11-01)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency mocha to v10.1.0 ([e18e414](https://github.com/wmfs/json-to-vuelidate/commit/e18e41483883f69c25df65aa932b552500dda81f))
+* **deps:** update dependency vue to v3.2.41 ([d306154](https://github.com/wmfs/json-to-vuelidate/commit/d306154a8bc5c4034b8d180e1595f8434a074ba6))
+
 ## [1.27.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.27.0...v1.27.1) (2022-09-08)
 
 
