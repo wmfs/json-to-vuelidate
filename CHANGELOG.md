@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.29.0...v1.30.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency google-libphonenumber to v3.2.31 ([dc778a2](https://github.com/wmfs/json-to-vuelidate/commit/dc778a2d32ce90d61e7eb7dc41d1c207db1c2f96))
+
 # [1.29.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.28.0...v1.29.0) (2022-11-02)
 
 
