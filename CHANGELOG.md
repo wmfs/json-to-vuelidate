@@ -1,3 +1,10 @@
+# [1.29.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.28.0...v1.29.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@vuelidate](https://github.com/vuelidate)/validators to v2.0.0 ([14c6092](https://github.com/wmfs/json-to-vuelidate/commit/14c6092d63aaaa09b962c5212f6735d346b7b606))
+
 # [1.28.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.27.1...v1.28.0) (2022-11-01)
 
 
