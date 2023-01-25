@@ -11,7 +11,7 @@
   "dependencies": {
     "vue": "3.2.41",
     "@vuelidate/validators": "2.0.0",
-    "google-libphonenumber": "3.2.31",
+    "google-libphonenumber": "3.2.32",
     "lodash.template": "4.5.0",
     "moment": "2.29.4"
   },
