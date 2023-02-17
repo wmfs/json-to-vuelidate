@@ -1,3 +1,19 @@
+# [1.31.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.30.0...v1.31.0) (2023-02-17)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([03afb6f](https://github.com/wmfs/json-to-vuelidate/commit/03afb6f041fc0ced880673bacf83cfe122e1e526))
+* **deps-dev:** update dependency chai to v4.3.7 ([9f80d30](https://github.com/wmfs/json-to-vuelidate/commit/9f80d3033b8fbf6c1875777ccd56b50d193c4658))
+* **deps-dev:** update dependency mocha to v10.2.0 ([5e72499](https://github.com/wmfs/json-to-vuelidate/commit/5e724997858967cb54010dc7447edfc3b1aec86d))
+* **deps-dev:** update dependency semantic-release to v20 ([f11703c](https://github.com/wmfs/json-to-vuelidate/commit/f11703ce772e57e480ab0b2b7abf82aed1a68f19))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([63dc48a](https://github.com/wmfs/json-to-vuelidate/commit/63dc48ae5fa6eedd52ee306a198f39f6b24a9186))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([72445cb](https://github.com/wmfs/json-to-vuelidate/commit/72445cbd532a91ffe6fe95f50930e55fddd66911))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([75e2b50](https://github.com/wmfs/json-to-vuelidate/commit/75e2b5039fc480543c55afb51c2c3fed7e58cca1))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([e15c418](https://github.com/wmfs/json-to-vuelidate/commit/e15c41833adc7a1c4560a84e26710929b6545f64))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([de34fbd](https://github.com/wmfs/json-to-vuelidate/commit/de34fbd23bf7168387893ae8646381ba6ba307e3))
+* **deps:** update dependency vue to v3.2.47 ([038bc55](https://github.com/wmfs/json-to-vuelidate/commit/038bc551783cea279b2987500c7b7c9eab2b15d8))
+
 # [1.30.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.29.0...v1.30.0) (2022-11-02)
 
 
