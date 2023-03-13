@@ -1,3 +1,11 @@
+# [1.32.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.31.0...v1.32.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([0232d01](https://github.com/wmfs/json-to-vuelidate/commit/0232d01fafffdf5f92ba8615dfbf7db6dbafcaac))
+* **deps:** update dependency google-libphonenumber to v3.2.32 ([3b54e08](https://github.com/wmfs/json-to-vuelidate/commit/3b54e086bd56aaa18f72fec3d5443a48393b26af))
+
 # [1.31.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.30.0...v1.31.0) (2023-02-17)
 
 
