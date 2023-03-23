@@ -16,7 +16,7 @@
     "moment": "2.29.4"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.2",
+    "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "babel-preset-env": "1.7.0",
     "babel-register": "6.26.0",
