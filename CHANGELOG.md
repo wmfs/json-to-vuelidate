@@ -1,3 +1,15 @@
+# [1.33.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.32.0...v1.33.0) (2023-05-19)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.3 ([a79b02e](https://github.com/wmfs/json-to-vuelidate/commit/a79b02e70a3480f465db89d0b3ec054d9247b757))
+* **deps-dev:** update dependency semantic-release to v20.1.3 ([c967a7e](https://github.com/wmfs/json-to-vuelidate/commit/c967a7ed1e4ff0a9360b25740f27fa3d835d6f30))
+* **deps-dev:** update dependency semantic-release to v21 ([ab91a20](https://github.com/wmfs/json-to-vuelidate/commit/ab91a20cf0fd0d3e68443cd6c85b961313ab473d))
+* **deps-dev:** update dependency semantic-release to v21.0.1 ([6f51121](https://github.com/wmfs/json-to-vuelidate/commit/6f51121ef6be4152bfb411aa5f9d7bdec7fc810a))
+* **deps-dev:** update dependency semantic-release to v21.0.2 ([c1786d8](https://github.com/wmfs/json-to-vuelidate/commit/c1786d84265712984a6bfde98d25c4f0fd203375))
+* **deps:** update dependency vue to v3.3.4 ([1dad061](https://github.com/wmfs/json-to-vuelidate/commit/1dad061e2c84529980c5d18eb38ee6b150c3d2de))
+
 # [1.32.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.31.0...v1.32.0) (2023-03-13)
 
 
