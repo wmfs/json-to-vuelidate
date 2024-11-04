@@ -1,3 +1,5 @@
+# [1.36.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.35.0...v1.36.0) (2024-11-04)
+
 # [1.35.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.34.0...v1.35.0) (2024-11-04)
 
 # [1.34.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.33.0...v1.34.0) (2024-07-02)
