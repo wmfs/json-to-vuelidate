@@ -1,3 +1,15 @@
+## [1.40.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.39.0...v1.40.0) (2025-05-15)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** [sc-29160] Resolve issue with semantic-release changelog notes ([#285](https://github.com/wmfs/json-to-vuelidate/issues/285)) ([4d41748](https://github.com/wmfs/json-to-vuelidate/commit/4d4174893352df77469733d05bdfa946fdca0a55))
+* **deps-dev:** update dependency mocha to v11.1.0 ([#286](https://github.com/wmfs/json-to-vuelidate/issues/286)) ([7c9726b](https://github.com/wmfs/json-to-vuelidate/commit/7c9726b806b08733ad5383e3598ac4f7db18e148))
+* **deps-dev:** update dependency mocha to v11.2.2 ([#289](https://github.com/wmfs/json-to-vuelidate/issues/289)) ([a63fc9c](https://github.com/wmfs/json-to-vuelidate/commit/a63fc9ccafa05c2d0f2cd6420c1d34d6e4b428ac))
+* **deps-dev:** update dependency semantic-release to v24.2.1 ([#284](https://github.com/wmfs/json-to-vuelidate/issues/284)) ([023617b](https://github.com/wmfs/json-to-vuelidate/commit/023617bc58c6e6efe88999315238224910c5c923))
+* **deps-dev:** update dependency semantic-release to v24.2.2 ([#287](https://github.com/wmfs/json-to-vuelidate/issues/287)) ([df4b58f](https://github.com/wmfs/json-to-vuelidate/commit/df4b58ff9dddc3db01cac848b28e7aca4da0d0cc))
+* **deps-dev:** update dependency semantic-release to v24.2.3 ([#288](https://github.com/wmfs/json-to-vuelidate/issues/288)) ([0cc7bc3](https://github.com/wmfs/json-to-vuelidate/commit/0cc7bc39671a9cfc7119a36bc1a5803a021d1377))
+* **deps:** update dependency vue to v3.5.14 ([#290](https://github.com/wmfs/json-to-vuelidate/issues/290)) ([aa35d39](https://github.com/wmfs/json-to-vuelidate/commit/aa35d3963841991fd44748f6a00c68f09ba7e036))
+
 # [1.39.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.38.0...v1.39.0) (2024-12-09)
 
 # [1.38.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.37.0...v1.38.0) (2024-11-25)
