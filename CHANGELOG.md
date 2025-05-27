@@ -1,3 +1,16 @@
+## [1.41.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.40.0...v1.41.0) (2025-05-27)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9 ([#294](https://github.com/wmfs/json-to-vuelidate/issues/294)) ([b8663c1](https://github.com/wmfs/json-to-vuelidate/commit/b8663c1c646569938e576554e10db6c56b155d96))
+* **deps-dev:** update dependency mocha to v11.3.0 ([#291](https://github.com/wmfs/json-to-vuelidate/issues/291)) ([56bea3e](https://github.com/wmfs/json-to-vuelidate/commit/56bea3edb2f2917c2302ce7de714ee0778858050))
+* **deps-dev:** update dependency mocha to v11.4.0 ([#293](https://github.com/wmfs/json-to-vuelidate/issues/293)) ([f76183d](https://github.com/wmfs/json-to-vuelidate/commit/f76183dd8bf983f4fbd7f56cf5c87f1e353c9b17))
+* **deps-dev:** update dependency mocha to v11.5.0 ([#296](https://github.com/wmfs/json-to-vuelidate/issues/296)) ([d39bb0b](https://github.com/wmfs/json-to-vuelidate/commit/d39bb0b275b06999f8827ff4f5a5dc7766314d1c))
+* **deps-dev:** update dependency semantic-release to v24.2.4 ([#292](https://github.com/wmfs/json-to-vuelidate/issues/292)) ([d412448](https://github.com/wmfs/json-to-vuelidate/commit/d412448439afa945ddaa927e66c9bcd31a9c52c4))
+* **deps-dev:** update dependency semantic-release to v24.2.5 ([#295](https://github.com/wmfs/json-to-vuelidate/issues/295)) ([409cb22](https://github.com/wmfs/json-to-vuelidate/commit/409cb223262a2fd438cfd9fbc9b118e176dfebd7))
+* **deps:** update dependency google-libphonenumber to v3.2.41 ([#297](https://github.com/wmfs/json-to-vuelidate/issues/297)) ([8cd34e3](https://github.com/wmfs/json-to-vuelidate/commit/8cd34e351f4276cc5d6e3ac7817374e5ec587943))
+* **deps:** update dependency vue to v3.5.15 ([#298](https://github.com/wmfs/json-to-vuelidate/issues/298)) ([a19733f](https://github.com/wmfs/json-to-vuelidate/commit/a19733fcdf0739160f058e0f2fba74591f1bfd69))
+
 ## [1.40.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.39.0...v1.40.0) (2025-05-15)
 
 ### Build system dependencies :hammer:
