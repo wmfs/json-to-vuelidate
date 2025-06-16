@@ -1,3 +1,10 @@
+## [1.43.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.42.0...v1.43.0) (2025-06-16)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency mocha to v11.6.0 ([#301](https://github.com/wmfs/json-to-vuelidate/issues/301)) ([8e248d9](https://github.com/wmfs/json-to-vuelidate/commit/8e248d9a0016fe624a8a2ff9fa56f86cdc9307ec))
+* **deps:** update dependency google-libphonenumber to v3.2.42 ([#300](https://github.com/wmfs/json-to-vuelidate/issues/300)) ([5c60696](https://github.com/wmfs/json-to-vuelidate/commit/5c60696d68ab5204ff99b25c5dc8d66eee7baefb))
+
 ## [1.42.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.41.0...v1.42.0) (2025-05-29)
 
 ### Build system dependencies :hammer:
