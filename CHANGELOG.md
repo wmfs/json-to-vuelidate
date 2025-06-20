@@ -1,3 +1,10 @@
+## [1.44.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.43.0...v1.44.0) (2025-06-20)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency mocha to v11.7.0 ([#302](https://github.com/wmfs/json-to-vuelidate/issues/302)) ([b4cf6aa](https://github.com/wmfs/json-to-vuelidate/commit/b4cf6aad8b97532493ca4be0e8b3e7aa74610e0f))
+* **deps:** update dependency vue to v3.5.17 ([#303](https://github.com/wmfs/json-to-vuelidate/issues/303)) ([5270e7b](https://github.com/wmfs/json-to-vuelidate/commit/5270e7bbb80cde7c07d97e2aa9344031b685bc68))
+
 ## [1.43.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.42.0...v1.43.0) (2025-06-16)
 
 ### Build system dependencies :hammer:
