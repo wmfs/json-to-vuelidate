@@ -1,3 +1,13 @@
+## [1.45.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.44.0...v1.45.0) (2025-07-23)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#306](https://github.com/wmfs/json-to-vuelidate/issues/306)) ([49ad980](https://github.com/wmfs/json-to-vuelidate/commit/49ad980e5b53121c93e2bb0149a8a86390456782))
+* **deps-dev:** update dependency mocha to v11.7.1 ([#304](https://github.com/wmfs/json-to-vuelidate/issues/304)) ([f31e1b6](https://github.com/wmfs/json-to-vuelidate/commit/f31e1b65f5cd716391a7d61853ed7e22b5dafd4f))
+* **deps-dev:** update dependency semantic-release to v24.2.6 ([#305](https://github.com/wmfs/json-to-vuelidate/issues/305)) ([9b01527](https://github.com/wmfs/json-to-vuelidate/commit/9b01527af69487ebb0d285f3abcb3a5099f03e06))
+* **deps-dev:** update dependency semantic-release to v24.2.7 ([#307](https://github.com/wmfs/json-to-vuelidate/issues/307)) ([8828f09](https://github.com/wmfs/json-to-vuelidate/commit/8828f091c016741c1f8cbbd6eb2ba7f3f8b72646))
+* **deps:** update dependency vue to v3.5.18 ([#308](https://github.com/wmfs/json-to-vuelidate/issues/308)) ([3c73d9d](https://github.com/wmfs/json-to-vuelidate/commit/3c73d9d7c5436903434a868965d2e3691337c416))
+
 ## [1.44.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.43.0...v1.44.0) (2025-06-20)
 
 ### Build system dependencies :hammer:
