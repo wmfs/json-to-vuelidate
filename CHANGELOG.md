@@ -1,3 +1,19 @@
+## [1.46.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.45.0...v1.46.0) (2025-10-21)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @semantic-release/release-notes-generator to v14.1.0 ([#312](https://github.com/wmfs/json-to-vuelidate/issues/312)) ([3e45c6d](https://github.com/wmfs/json-to-vuelidate/commit/3e45c6d39c12aac5e043a6258b1bc4a04c0f0afa))
+* **deps-dev:** update dependency chai to v6 ([#310](https://github.com/wmfs/json-to-vuelidate/issues/310)) ([d7b6437](https://github.com/wmfs/json-to-vuelidate/commit/d7b643708608632d909e157d48ee855a06dbe942))
+* **deps-dev:** update dependency chai to v6.2.0 ([#316](https://github.com/wmfs/json-to-vuelidate/issues/316)) ([c458335](https://github.com/wmfs/json-to-vuelidate/commit/c45833504b346dc0de826cc81e96bfe466890c9a))
+* **deps-dev:** update dependency mocha to v11.7.2 ([#311](https://github.com/wmfs/json-to-vuelidate/issues/311)) ([cbd745f](https://github.com/wmfs/json-to-vuelidate/commit/cbd745f21e87b8308513391242c16700ec1cce6d))
+* **deps-dev:** update dependency mocha to v11.7.3 ([#317](https://github.com/wmfs/json-to-vuelidate/issues/317)) ([d6dcbb8](https://github.com/wmfs/json-to-vuelidate/commit/d6dcbb8f218575b55d2e9fa45a9ae394636f4333))
+* **deps-dev:** update dependency mocha to v11.7.4 ([#318](https://github.com/wmfs/json-to-vuelidate/issues/318)) ([46bec51](https://github.com/wmfs/json-to-vuelidate/commit/46bec51a887f66b24d4a4f6d8202f02b9e88cb68))
+* **deps-dev:** update dependency semantic-release to v24.2.8 ([#313](https://github.com/wmfs/json-to-vuelidate/issues/313)) ([d61c464](https://github.com/wmfs/json-to-vuelidate/commit/d61c4640408e0d9e230408615f6b638b515d20f6))
+* **deps-dev:** update dependency semantic-release to v24.2.9 ([#315](https://github.com/wmfs/json-to-vuelidate/issues/315)) ([854be80](https://github.com/wmfs/json-to-vuelidate/commit/854be80eb8a823f4ca855e27c7fd817785e2b9cb))
+* **deps-dev:** update dependency semantic-release to v25 ([#319](https://github.com/wmfs/json-to-vuelidate/issues/319)) ([1d42cbf](https://github.com/wmfs/json-to-vuelidate/commit/1d42cbf22cc1e8ae81b0e9020575faa26aa9659e))
+* **deps-dev:** update dependency semantic-release to v25.0.1 ([#320](https://github.com/wmfs/json-to-vuelidate/issues/320)) ([1365e89](https://github.com/wmfs/json-to-vuelidate/commit/1365e891353d420377700ad3c712ee978a8187db))
+* **deps:** revert chai to non-esm ([b7b7627](https://github.com/wmfs/json-to-vuelidate/commit/b7b7627bb08e5a316805c6bb523a5a0522502df5))
+
 ## [1.45.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.44.0...v1.45.0) (2025-07-23)
 
 ### Build system dependencies :hammer:
