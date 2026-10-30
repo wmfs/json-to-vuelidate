@@ -1,3 +1,22 @@
+## [1.47.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.46.1...v1.47.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([6376662](https://github.com/wmfs/json-to-vuelidate/commit/637666244270de519eefdae53678299c5ed64a0e))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#347](https://github.com/wmfs/json-to-vuelidate/issues/347)) ([633f050](https://github.com/wmfs/json-to-vuelidate/commit/633f05092caeff430e32ca49eaafc1d43ecfecb2))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#354](https://github.com/wmfs/json-to-vuelidate/issues/354)) ([032ba10](https://github.com/wmfs/json-to-vuelidate/commit/032ba1065ec8e8a3f67e89d991f8d75dba32606a))
+* **deps-dev:** update dependency mocha to v12 ([#348](https://github.com/wmfs/json-to-vuelidate/issues/348)) ([1831650](https://github.com/wmfs/json-to-vuelidate/commit/1831650ff2fcd7f4758570092b2d83b8c3b8416f))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#349](https://github.com/wmfs/json-to-vuelidate/issues/349)) ([b9a5313](https://github.com/wmfs/json-to-vuelidate/commit/b9a5313981cb1124e57e56582edc034acaf9cb7a))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#351](https://github.com/wmfs/json-to-vuelidate/issues/351)) ([12adaa4](https://github.com/wmfs/json-to-vuelidate/commit/12adaa4f6890140ff4de08767b347e009f8d6413))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#353](https://github.com/wmfs/json-to-vuelidate/issues/353)) ([57fc046](https://github.com/wmfs/json-to-vuelidate/commit/57fc04684eaa934a36e9eaf80491f96f9e85ade8))
+* **deps:** update dependency lodash.template to v4.18.0 [security] ([#330](https://github.com/wmfs/json-to-vuelidate/issues/330)) ([3cbd2b1](https://github.com/wmfs/json-to-vuelidate/commit/3cbd2b1adcd131079b3301ee27b338cc1bb20bea))
+* **deps:** update dependency moment to v2.31.0 [security] ([#352](https://github.com/wmfs/json-to-vuelidate/issues/352)) ([17bfa69](https://github.com/wmfs/json-to-vuelidate/commit/17bfa6901e8e34ed4e9d1c41198ea52eafd7b551))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#356](https://github.com/wmfs/json-to-vuelidate/issues/356)) ([2bed03a](https://github.com/wmfs/json-to-vuelidate/commit/2bed03a424014ecc913767032df50e9e75847500))
+* use shared renovate preset [sc-34117] ([#355](https://github.com/wmfs/json-to-vuelidate/issues/355)) ([d5e4c6c](https://github.com/wmfs/json-to-vuelidate/commit/d5e4c6c85818fef8e6a7cbda04d0fd83e981ff4e))
+
 ## [1.46.1](https://github.com/wmfs/json-to-vuelidate/compare/v1.46.0...v1.46.1) (2026-08-13)
 
 ## [1.46.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.45.0...v1.46.0) (2025-10-21)
