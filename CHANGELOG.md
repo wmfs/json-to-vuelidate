@@ -1,3 +1,9 @@
+## [1.48.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.47.0...v1.48.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency lodash.template to v4.18.1 ([#357](https://github.com/wmfs/json-to-vuelidate/issues/357)) ([2bb014a](https://github.com/wmfs/json-to-vuelidate/commit/2bb014a973d4eebd08f81fec68266e989044ff7b))
+
 ## [1.47.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.46.1...v1.47.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
