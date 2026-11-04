@@ -1,3 +1,9 @@
+## [1.50.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.49.0...v1.50.0) (2026-11-04)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency vue to v3.5.44 ([#309](https://github.com/wmfs/json-to-vuelidate/issues/309)) ([90ae229](https://github.com/wmfs/json-to-vuelidate/commit/90ae229dd4318ef16b14515659e5eaa127bdeed7))
+
 ## [1.49.0](https://github.com/wmfs/json-to-vuelidate/compare/v1.48.0...v1.49.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
